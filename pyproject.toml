@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vernyccex-compilerfuse_jd297"
+name = "vernyccex-agent_termination_condition_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://vernyccex.github.io"
-Repository = "https://github.com/vernyccex/compilerfuse_jd297"
-Issues = "https://github.com/vernyccex/compilerfuse_jd297/issues"
+Repository = "https://github.com/vernyccex/agent_termination_condition_budget_alloc"
+Issues = "https://github.com/vernyccex/agent_termination_condition_budget_alloc/issues"
 
 [project.scripts]
-compilerfuse_jd297 = "compilerfuse_jd297:main"
+agent_termination_condition_budget_alloc = "agent_termination_condition_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["compilerfuse_jd297"]
+py-modules = ["agent_termination_condition_budget_alloc"]
